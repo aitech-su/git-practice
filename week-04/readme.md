@@ -1,4 +1,4 @@
-1. [Public IP] (http://54.162.3.131)
+1. Public IP: http://54.162.3.131
 
 2. Instance Type (EC2 主機): EC2 instance type 是 AWS 提供的不同配置的虛擬伺服器，它們提供不同的 CPU、記憶體、儲存和網路效能選項。
 3. Nginx 是一個高效能的 HTTP 和反向代理伺服器。它可用於靜態網站托管、負載平衡和作為反向代理以處理來自客戶端的請求。
@@ -29,7 +29,7 @@
 10. 剛建好虛擬機器時，無法從本地端ssh連線。後來把EC2 instance的key保存到本地資料夾某處後再把權限修改(必要)，就可以連上了。
 11. refs: <br>
 [Instance-Type](https://www.youtube.com/watch?v=iHX-jtKIVNA) + ChatGPT<br>
-[Nginx]:https://www.explainthis.io/zh-hant/swe/why-nginx + ChatGPT<br>
-[PM2] https://ithelp.ithome.com.tw/articles/10220480 + https://github.com/Unitech/pm2 + ChatGPT<br>
-[Proxy] ChatGPT<br>
-[Security-Group] https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/vpc-security-groups.html + ChatGPT
+Nginx: https://www.explainthis.io/zh-hant/swe/why-nginx + ChatGPT<br>
+PM2: https://ithelp.ithome.com.tw/articles/10220480 + https://github.com/Unitech/pm2 + ChatGPT<br>
+Proxy: ChatGPT<br>
+Security-Group: https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/vpc-security-groups.html + ChatGPT
