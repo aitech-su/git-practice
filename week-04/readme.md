@@ -29,7 +29,7 @@
 10. 剛建好虛擬機器時，無法從本地端ssh連線。後來把EC2 instance的key保存到本地資料夾某處後再把權限修改(必要)，就可以連上了。
 11. refs:
 [Instance-Type](https://www.youtube.com/watch?v=iHX-jtKIVNA) + ChatGPT<br>
-[Nginx](https://www.explainthis.io/zh-hant/swe/why-nginx) + ChatGPT<br>
+[Nginx]:https://www.explainthis.io/zh-hant/swe/why-nginx + ChatGPT<br>
 [PM2] https://ithelp.ithome.com.tw/articles/10220480 + https://github.com/Unitech/pm2 + ChatGPT<br>
 [Proxy] ChatGPT<br>
 [Security-Group] https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/vpc-security-groups.html + ChatGPT
