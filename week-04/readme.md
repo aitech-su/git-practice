@@ -27,7 +27,7 @@
 8. sudo 是一個允許用戶以超級使用者或其他使用者的身份執行命令的工具。有時需要 sudo 是因為某些操作需要更高的權限來執行系統層級的變更。
 9. Nginx 的 Log 檔案位置: 通常位於 /var/log/nginx/ 目錄下，包含 access.log 和 error.log。可以用 tail -f /var/log/nginx/access.log 來即時查看log。
 10. 剛建好虛擬機器時，無法從本地端ssh連線。後來把EC2 instance的key保存到本地資料夾某處後再把權限修改(必要)，就可以連上了。
-11. refs: <br>
+11. Refs: <br>
 [Instance-Type](https://www.youtube.com/watch?v=iHX-jtKIVNA) + ChatGPT<br>
 Nginx: https://www.explainthis.io/zh-hant/swe/why-nginx + ChatGPT<br>
 PM2: https://ithelp.ithome.com.tw/articles/10220480 + https://github.com/Unitech/pm2 + ChatGPT<br>
