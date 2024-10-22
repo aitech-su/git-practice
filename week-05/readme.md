@@ -7,7 +7,7 @@
         A 記錄的格式：<br>
         ```css
         example.com.   IN   A   192.0.2.1
-        ```
+        ```<br>
         A 記錄僅用於 IPv4 位址。若是 IPv6 位址，則需要使用 AAAA 記錄。<br>
 4.  DNS 的 NS Record 是什麼？<br>
         NS Record（Name Server Record） 用於指定管理某個網域名稱的 名稱伺服器。<br>
