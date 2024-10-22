@@ -15,7 +15,9 @@
         一個網域通常會有多個 NS 記錄，以確保冗餘和穩定性。這樣，如果主名稱伺服器不可用，還有備援伺服器可以接管。<br>
         NS 記錄的格式：<br>
         ```
-        example.com.   IN   NS   ns1.provider.com. <br>
+        example.com.   IN   NS   ns1.provider.com.
+        ```<br>
+        ```
         example.com.   IN   NS   ns2.provider.com.
         ```<br>
         這表示 example.com 的 DNS 查詢由 ns1.provider.com 和 ns2.provider.com 負責。<br>
