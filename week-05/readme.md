@@ -5,7 +5,7 @@
         例如，如果有一個網域名稱是 example.com，A 記錄可能會將其對應到 IP 位址 192.0.2.1。<br>
         當用戶在瀏覽器中輸入 example.com 時，DNS 會查詢該網域的 A 記錄來找到它對應的 IP 位址，然後用戶的瀏覽器就可以連接<br>到該 IP 所指向的伺服器。<br>
         A 記錄的格式：<br>
-        ```css
+        ```
         example.com.   IN   A   192.0.2.1
         ```<br>
         A 記錄僅用於 IPv4 位址。若是 IPv6 位址，則需要使用 AAAA 記錄。<br>
@@ -14,8 +14,8 @@
         它告訴互聯網上其他的 DNS 伺服器，該去哪裡尋找某個網域的詳細 DNS 記錄，如 A 記錄、MX 記錄等。<br>
         一個網域通常會有多個 NS 記錄，以確保冗餘和穩定性。這樣，如果主名稱伺服器不可用，還有備援伺服器可以接管。<br>
         NS 記錄的格式：<br>
-        ```css
-        example.com.   IN   NS   ns1.provider.com.
+        ```
+        example.com.   IN   NS   ns1.provider.com. <br>
         example.com.   IN   NS   ns2.provider.com.
         ```<br>
         這表示 example.com 的 DNS 查詢由 ns1.provider.com 和 ns2.provider.com 負責。<br>
