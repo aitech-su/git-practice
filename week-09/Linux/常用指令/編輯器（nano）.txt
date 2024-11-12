@@ -1,0 +1,2 @@
+# 使用 nano 編輯 Nginx 配置檔案
+sudo nano /etc/nginx/nginx.conf

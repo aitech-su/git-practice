@@ -1,0 +1,4 @@
+/var/myweb：儲存 myweb 應用程式的相關檔案。
+/var/log/nginx/access.log：nginx 的訪問日誌。
+/var/log/myweb/error.log：應用程式 myweb 的錯誤日誌。
+/var/log/nginx/error.log：nginx 的錯誤日誌。

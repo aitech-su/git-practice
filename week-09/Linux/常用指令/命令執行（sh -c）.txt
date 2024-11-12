@@ -1,0 +1,54 @@
+# sh -c 的意義與使用方式
+
+# 1. 執行整段指令字串
+	# `sh` 指的是 Shell，通常是 /bin/sh。
+	# `-c` 選項告訴 Shell 後面的參數是一整段命令字串。
+	# Shell 將雙引號內的內容視為一個整體指令執行。
+
+# 2. 支援多層引號或變數處理
+	# `sh -c` 允許在字串中使用變數、嵌套指令等複雜結構，
+	# 常用於 `sudo` 等情境下，讓 sudo 可以對多行指令生效。
+
+# 用法範例：
+
+	# 1. 使用 sudo 執行 sh -c，將防火牆規則儲存到文件，讓 sudo 作用於整段指令
+		sudo sh -c "iptables-save > /etc/iptables/rules.v4"
+
+	# 2. 執行多個指令
+		sh -c "echo Hello; echo World"
+
+	# 3. 使用變數並傳入 sh -c
+		VAR="Test"
+		sh -c "echo $VAR"  # 輸出為 "Test"
+
+	# 4. 使用 sh -c 讓 sudo 執行複數指令
+		sudo sh -c "echo 'Hello World' > /tmp/hello.txt; cat /tmp/hello.txt"
+
+	# 5. 使用 sh -c 執行一條復雜的命令（包含管道）
+		sh -c "echo 'Hello' | tr 'a-z' 'A-Z'"
+
+	# 6. 使用 sh -c 設置環境變數並執行命令
+		sh -c "export MY_VAR='Test'; echo $MY_VAR"
+
+	# 7. 使用 sh -c 執行帶有引號的命令
+		sh -c "echo 'This is a test with quotes'"
+
+	# 8. 使用 sh -c 和條件語句執行命令
+		sh -c "if [ -f /etc/hostname ]; then echo 'File exists'; else echo 'File not found'; fi"
+
+	# 9. 使用 sh -c 與變數，動態設置值
+		VALUE="Dynamic Value"
+		sh -c "echo 'The value is: $VALUE'"
+
+	# 10. 使用 sh -c 同時執行多個命令並將結果輸出到文件
+		sh -c "echo 'This is a log entry' >> /var/log/mylog.log; cat /var/log/mylog.log"
+
+	# 11. 使用 sh -c 執行系統管理命令並重定向輸出
+		sudo sh -c "df -h > /tmp/disk_usage.txt; cat /tmp/disk_usage.txt"
+
+	# 12. 使用 sh -c 執行復雜的數學運算
+		sh -c "result=$((3 * 5)); echo 'The result is: $result'"
+
+# sh -c 的常見用途：
+	# - 使用 sudo 執行多個指令或重導輸出。
+	# - 執行多行指令或包含變數的複雜命令。

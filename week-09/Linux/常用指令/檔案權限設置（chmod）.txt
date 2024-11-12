@@ -1,0 +1,2 @@
+# 將 Nginx 配置檔案的權限設為 644
+sudo chmod 644 /etc/nginx/nginx.conf

@@ -1,0 +1,2 @@
+/etc/nginx/nginx.conf：nginx 的主配置檔案。
+/etc/nginx/sites-available/default：nginx 預設站點配置。

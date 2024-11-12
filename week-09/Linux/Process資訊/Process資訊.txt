@@ -1,0 +1,15 @@
+UID = root, PPID = 1 的解釋：
+
+1. UID = root
+   - UID：用戶 ID，用來標識進程的擁有者。
+   - root：擁有最高權限的用戶，能夠執行所有系統操作。
+   
+   因此，UID = root 表示該進程是由 root 用戶啟動的，擁有最高的系統操作權限。
+
+2. PPID = 1
+   - PPID：父進程 ID，指向啟動該進程的父進程。
+   - PPID = 1 表示父進程是 init 或 systemd（PID = 1 的進程），這是 Linux 系統中所有進程的最上層進程。
+   - 當一個進程的原始父進程終止時，init/systemd 會「收養」該進程，使其父進程 ID 設為 1。
+
+結論：
+UID = root, PPID = 1 表示該進程是由 root 用戶運行，並且其父進程是 init 或 systemd。

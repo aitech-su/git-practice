@@ -1,0 +1,45 @@
+1. Debian 系列
+	Debian //手工打造,適合不要多裝多餘軟體的使用者
+	Ubuntu	//科技比較新,但穩定度可能不如CentOS
+		Kubuntu（使用 KDE 桌面環境）
+		Xubuntu（使用 Xfce 桌面環境）
+		Lubuntu（使用 LXQt 桌面環境）
+		Ubuntu MATE（使用 MATE 桌面環境）
+		Ubuntu Budgie（使用 Budgie 桌面環境）
+		Ubuntu Studio（面向多媒體創作）
+		Linux Mint（面向桌面用戶，基於 Ubuntu 或 Debian）
+		Pop!_OS（面向開發者和電腦愛好者，基於 Ubuntu）
+	Devuan（不使用 systemd 的 Debian 分支）
+	Kali Linux（面向安全專業人員和黑客，基於 Debian）
+	Raspberry Pi OS（面向 Raspberry Pi 硬件，基於 Debian）
+2. Red Hat 系列
+	Red Hat Enterprise Linux (RHEL)
+		CentOS（原來是 RHEL 的免費版本） //改版週期長,穩定,適合伺服器
+		AlmaLinux（CentOS 轉向 CentOS Stream 之後的社區版替代品）
+		Rocky Linux（另一個 CentOS 替代品）
+		Fedora
+			Fedora Workstation（面向桌面用戶）
+			Fedora Server（面向服務器）
+			Fedora Silverblue（不變的桌面操作系統）
+3. Arch 系列
+	Arch Linux
+		Manjaro（更易於安裝和使用的 Arch 分支）
+		EndeavourOS（使用方便的 Arch 安裝程序）
+		ArcoLinux（提供多種桌面環境的 Arch 分支）
+4. SUSE 系列
+	SUSE Linux Enterprise
+		openSUSE
+			openSUSE Leap（面向企業用戶的穩定版本）
+			openSUSE Tumbleweed（滾動更新版本）
+5. Gentoo 系列
+	Gentoo Linux
+		Calculate Linux（面向企業的 Gentoo 分支）
+		Sabayon（使用者友好的 Gentoo 分支）
+6. Slackware 系列
+	Slackware Linux
+		Slax（小型便攜版本）
+		Zenwalk（針對桌面用戶進行優化的 Slackware 分支）
+7. 其他
+	Alpine Linux（小巧、安全的 Linux 發行版）
+	Void Linux（使用 runit 初始化系統，獨立開發）
+	Clear Linux（Intel 開發，針對性能進行優化）

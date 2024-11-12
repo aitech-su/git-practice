@@ -1,0 +1,14 @@
+# 啟動 Nginx 服務
+sudo systemctl start nginx
+
+# 檢查 Nginx 服務狀態
+sudo systemctl status nginx.service
+
+# 停止 srv 服務
+sudo systemctl stop srv
+
+# 設置 Nginx 為開機自動啟動
+sudo systemctl enable nginx
+
+# 停用 srv 服務的開機自動啟動
+sudo systemctl disable srv.service

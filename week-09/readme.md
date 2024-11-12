@@ -129,3 +129,5 @@ sudo truncate -s 0 /var/log/nginx/access.log
 sudo truncate -s 0 /var/log/nginx/error.log
 ```
 
+### 心得
+我學到了很多Linux的知識
