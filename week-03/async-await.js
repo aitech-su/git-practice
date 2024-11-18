@@ -5,6 +5,10 @@ function doJob(job, time) {
         resolve(`完成工作 ${job} at ${now.toISOString()}`);
       }, time);
     });
+    // setTimeout(() => {
+    //   let now = new Date();
+    //   return(`完成工作 ${job} at ${now.toISOString()}`);
+    // }, time);
   }
   
   // 使用 async/await 來簡化非同步流程
